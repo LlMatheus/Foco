@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1e1e2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #292940;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #00bcd4, #2196f3);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <p>Desenvolvido por Matheus 🚀</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Projetos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Bem-vindo ao meu site</h1>
+        <p id="texto"></p>
+        <p>Estou aprendendo Front-End e evoluindo todos os dias.</p>
+    </section>
+
+    <section class="container">
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Estrutura de páginas web.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Estilização e design moderno.</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Interatividade e dinamismo.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 - Todos os direitos reservados</p>
+    </footer>
+    <script src="index.js"> </script>"
+
+</body>
+</html>
