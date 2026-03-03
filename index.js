@@ -1,32 +1,16 @@
+//Arrays
 
+//Array Literal
+                 //0    //1        //2          //3
+//const lista = ["arroz", "feijão", "macarrão", "leite"];
+//lista[0] = "pão"; //Alterando o valor do índice 0
+//console.log(lista);    
 
+//const pessoa = {nome:"Dimitri", sobrenome:"Teixeira", idade:30}; //objeto
 
-// Função para somar dois valores
-function soma(valor1, valor2) {
-    return valor1 + valor2;
-}
-//Função para converter real para dólar
-function realParaDolar (real, cotacaoDolar) {
-    return real * cotacaoDolar;
-}
+//alert(pessoa[pessoa.length -1]); //Exibe o último índice do array, que é o número de elementos - 1
+const x ="Olá, mundo!";
+const pessoa = ["Dimitri", "teixeira", 30,"Professor"]; //array
+//pessoa.push("Programador"); //Adiciona um elemento ao final do array
 
-var valorReal = 2.00;
-var cotaca = 5.00;
-var resultado = realParaDolar(valorReal, cotaca);
-
-alert   ("O valor em real R$ " + valorReal + " é equivalente a US$ " + resultado);
-
-
-//Objetos
-const carro ={
-    marca: "Fiat",
-    modelo: "Uno",
-    ano: 2020,
-    cor: "Vermelho",
-    buzina: function() { alert("Buzina: Beep Beep!"); },
-    completo: function() {
-        return this.marca + " " + this.modelo + " " + this.ano + " " + this.cor;
-    }
-};
-
-console.log(carro.completo());
+alert(Array.isArray(x)); //Verifica se a variável é um array, retornando true ou false
