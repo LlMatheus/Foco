@@ -40,8 +40,18 @@
 
  //Array Desafio 3
 
-const Aluno =["Matheus", 23, "ADS", "Lavras"];
-Aluno.push("Front-end");
-console.log(Aluno[0])
-console.log(Aluno[Aluno.length -1])
-Array.isArray(Aluno)
+//const Aluno =["Matheus", 23, "ADS", "Lavras"];
+//Aluno.push("Front-end");
+///console.log(Aluno[0])
+//console.log(Aluno[Aluno.length -1])
+//Array.isArray(Aluno)
+
+//Desafio 1 If else
+
+var idade = 18:
+if (idade >= 18) {
+    console.log("Você é maior de idade");
+} else {
+    console.log("Você é menor de idade");
+}
+alert("Verifique o console para ver o resultado do desafio 1");
